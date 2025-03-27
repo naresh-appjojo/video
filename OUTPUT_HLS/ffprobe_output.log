@@ -1,0 +1,253 @@
+ffprobe version 7.1.1 Copyright (c) 2007-2025 the FFmpeg developers
+  built with Apple clang version 16.0.0 (clang-1600.0.26.6)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/7.1.1_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'video_20250327_153937.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:10:58.24, start: 0.000000, bitrate: 3325 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1024:1024 DAR 16:9], 2956 kb/s, 24 fps, 24 tbr, 90k tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2]: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 130 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+  Stream #0:2[0x3]: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 126 kb/s
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+  Stream #0:3[0x4]: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 122 kb/s
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+[STREAM]
+index=0
+codec_name=h264
+codec_long_name=H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
+profile=High
+codec_type=video
+codec_tag_string=avc1
+codec_tag=0x31637661
+width=1280
+height=720
+coded_width=1280
+coded_height=720
+closed_captions=0
+film_grain=0
+has_b_frames=1
+sample_aspect_ratio=1:1
+display_aspect_ratio=16:9
+pix_fmt=yuv420p
+level=31
+color_range=tv
+color_space=bt709
+color_transfer=bt709
+color_primaries=bt709
+chroma_location=left
+field_order=progressive
+refs=1
+is_avc=true
+nal_length_size=4
+id=0x1
+r_frame_rate=24/1
+avg_frame_rate=62764/2615
+time_base=1/90000
+start_pts=0
+start_time=0.000000
+duration_ts=58837500
+duration=653.750000
+bit_rate=2956139
+max_bit_rate=N/A
+bits_per_raw_sample=8
+nb_frames=15691
+nb_read_frames=N/A
+nb_read_packets=N/A
+extradata_size=77
+DISPOSITION:default=1
+DISPOSITION:dub=0
+DISPOSITION:original=0
+DISPOSITION:comment=0
+DISPOSITION:lyrics=0
+DISPOSITION:karaoke=0
+DISPOSITION:forced=0
+DISPOSITION:hearing_impaired=0
+DISPOSITION:visual_impaired=0
+DISPOSITION:clean_effects=0
+DISPOSITION:attached_pic=0
+DISPOSITION:timed_thumbnails=0
+DISPOSITION:non_diegetic=0
+DISPOSITION:captions=0
+DISPOSITION:descriptions=0
+DISPOSITION:metadata=0
+DISPOSITION:dependent=0
+DISPOSITION:still_image=0
+DISPOSITION:multilayer=0
+TAG:language=und
+TAG:handler_name=VideoHandler
+TAG:vendor_id=[0][0][0][0]
+[/STREAM]
+[STREAM]
+index=1
+codec_name=aac
+codec_long_name=AAC (Advanced Audio Coding)
+profile=LC
+codec_type=audio
+codec_tag_string=mp4a
+codec_tag=0x6134706d
+sample_fmt=fltp
+sample_rate=44100
+channels=2
+channel_layout=stereo
+bits_per_sample=0
+initial_padding=0
+id=0x2
+r_frame_rate=0/0
+avg_frame_rate=0/0
+time_base=1/44100
+start_pts=0
+start_time=0.000000
+duration_ts=28833771
+duration=653.827007
+bit_rate=130482
+max_bit_rate=N/A
+bits_per_raw_sample=N/A
+nb_frames=28159
+nb_read_frames=N/A
+nb_read_packets=N/A
+extradata_size=5
+DISPOSITION:default=1
+DISPOSITION:dub=0
+DISPOSITION:original=0
+DISPOSITION:comment=0
+DISPOSITION:lyrics=0
+DISPOSITION:karaoke=0
+DISPOSITION:forced=0
+DISPOSITION:hearing_impaired=0
+DISPOSITION:visual_impaired=0
+DISPOSITION:clean_effects=0
+DISPOSITION:attached_pic=0
+DISPOSITION:timed_thumbnails=0
+DISPOSITION:non_diegetic=0
+DISPOSITION:captions=0
+DISPOSITION:descriptions=0
+DISPOSITION:metadata=0
+DISPOSITION:dependent=0
+DISPOSITION:still_image=0
+DISPOSITION:multilayer=0
+TAG:handler_name=SoundHandler
+TAG:vendor_id=[0][0][0][0]
+[/STREAM]
+[STREAM]
+index=2
+codec_name=aac
+codec_long_name=AAC (Advanced Audio Coding)
+profile=LC
+codec_type=audio
+codec_tag_string=mp4a
+codec_tag=0x6134706d
+sample_fmt=fltp
+sample_rate=44100
+channels=2
+channel_layout=stereo
+bits_per_sample=0
+initial_padding=0
+id=0x3
+r_frame_rate=0/0
+avg_frame_rate=0/0
+time_base=1/44100
+start_pts=0
+start_time=0.000000
+duration_ts=29028340
+duration=658.239002
+bit_rate=126772
+max_bit_rate=N/A
+bits_per_raw_sample=N/A
+nb_frames=28349
+nb_read_frames=N/A
+nb_read_packets=N/A
+extradata_size=5
+DISPOSITION:default=0
+DISPOSITION:dub=0
+DISPOSITION:original=0
+DISPOSITION:comment=0
+DISPOSITION:lyrics=0
+DISPOSITION:karaoke=0
+DISPOSITION:forced=0
+DISPOSITION:hearing_impaired=0
+DISPOSITION:visual_impaired=0
+DISPOSITION:clean_effects=0
+DISPOSITION:attached_pic=0
+DISPOSITION:timed_thumbnails=0
+DISPOSITION:non_diegetic=0
+DISPOSITION:captions=0
+DISPOSITION:descriptions=0
+DISPOSITION:metadata=0
+DISPOSITION:dependent=0
+DISPOSITION:still_image=0
+DISPOSITION:multilayer=0
+TAG:handler_name=SoundHandler
+TAG:vendor_id=[0][0][0][0]
+[/STREAM]
+[STREAM]
+index=3
+codec_name=aac
+codec_long_name=AAC (Advanced Audio Coding)
+profile=LC
+codec_type=audio
+codec_tag_string=mp4a
+codec_tag=0x6134706d
+sample_fmt=fltp
+sample_rate=44100
+channels=2
+channel_layout=stereo
+bits_per_sample=0
+initial_padding=0
+id=0x4
+r_frame_rate=0/0
+avg_frame_rate=0/0
+time_base=1/44100
+start_pts=0
+start_time=0.000000
+duration_ts=28824554
+duration=653.618005
+bit_rate=122743
+max_bit_rate=N/A
+bits_per_raw_sample=N/A
+nb_frames=28150
+nb_read_frames=N/A
+nb_read_packets=N/A
+extradata_size=5
+DISPOSITION:default=0
+DISPOSITION:dub=0
+DISPOSITION:original=0
+DISPOSITION:comment=0
+DISPOSITION:lyrics=0
+DISPOSITION:karaoke=0
+DISPOSITION:forced=0
+DISPOSITION:hearing_impaired=0
+DISPOSITION:visual_impaired=0
+DISPOSITION:clean_effects=0
+DISPOSITION:attached_pic=0
+DISPOSITION:timed_thumbnails=0
+DISPOSITION:non_diegetic=0
+DISPOSITION:captions=0
+DISPOSITION:descriptions=0
+DISPOSITION:metadata=0
+DISPOSITION:dependent=0
+DISPOSITION:still_image=0
+DISPOSITION:multilayer=0
+TAG:handler_name=SoundHandler
+TAG:vendor_id=[0][0][0][0]
+[/STREAM]
