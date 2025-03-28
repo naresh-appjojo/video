@@ -1,0 +1,52 @@
+ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 16.0.0 (clang-1600.0.26.6)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/7.1.1_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'video_20250327_153937.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:10:58.24, start: 0.000000, bitrate: 3325 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1024:1024 DAR 16:9], 2956 kb/s, 24 fps, 24 tbr, 90k tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2]: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 130 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+  Stream #0:2[0x3]: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 126 kb/s
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+  Stream #0:3[0x4]: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 122 kb/s
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+File 'OUTPUT_HLS/AUDIO_HLS/audio_2.m4a' already exists. Overwrite? [y/N] Stream mapping:
+  Stream #0:3 -> #0:0 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, mp4, to 'OUTPUT_HLS/AUDIO_HLS/audio_2.m4a':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Stream #0:0: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 aac
+size=     512KiB time=00:00:34.71 bitrate= 120.8kbits/s speed=68.7x    size=    1024KiB time=00:01:16.92 bitrate= 109.0kbits/s speed=76.2x    size=    1792KiB time=00:02:02.50 bitrate= 119.8kbits/s speed=80.9x    size=    2560KiB time=00:02:55.79 bitrate= 119.3kbits/s speed=  87x    size=    3328KiB time=00:03:39.70 bitrate= 124.1kbits/s speed=87.1x    size=    3840KiB time=00:04:21.24 bitrate= 120.4kbits/s speed=86.3x    size=    4864KiB time=00:05:14.86 bitrate= 126.6kbits/s speed=89.1x    size=    5632KiB time=00:06:03.18 bitrate= 127.0kbits/s speed=  90x    size=    6400KiB time=00:06:51.99 bitrate= 127.3kbits/s speed=90.8x    size=    7168KiB time=00:07:40.66 bitrate= 127.5kbits/s speed=91.3x    size=    7936KiB time=00:08:38.36 bitrate= 125.4kbits/s speed=93.4x    size=    8448KiB time=00:09:16.28 bitrate= 124.4kbits/s speed=91.9x    size=    9472KiB time=00:10:08.38 bitrate= 127.5kbits/s speed=92.8x    [mp4 @ 0x15bf20040] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x15bf09b10] video:0KiB audio:9790KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 1.132818%
+size=    9901KiB time=00:10:53.61 bitrate= 124.1kbits/s speed=95.8x    
+[aac @ 0x15bf20b80] Qavg: 4859.614
