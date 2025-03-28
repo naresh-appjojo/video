@@ -1,51 +1,0 @@
-ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
-  built with Apple clang version 16.0.0 (clang-1600.0.26.6)
-  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/7.1.1_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
-  libavutil      59. 39.100 / 59. 39.100
-  libavcodec     61. 19.101 / 61. 19.101
-  libavformat    61.  7.100 / 61.  7.100
-  libavdevice    61.  3.100 / 61.  3.100
-  libavfilter    10.  4.100 / 10.  4.100
-  libswscale      8.  3.100 /  8.  3.100
-  libswresample   5.  3.100 /  5.  3.100
-  libpostproc    58.  3.100 / 58.  3.100
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'video_20250327_153937.mp4':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf61.7.100
-  Duration: 00:10:58.24, start: 0.000000, bitrate: 3325 kb/s
-  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1024:1024 DAR 16:9], 2956 kb/s, 24 fps, 24 tbr, 90k tbn (default)
-      Metadata:
-        handler_name    : VideoHandler
-        vendor_id       : [0][0][0][0]
-  Stream #0:1[0x2]: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 130 kb/s (default)
-      Metadata:
-        handler_name    : SoundHandler
-        vendor_id       : [0][0][0][0]
-  Stream #0:2[0x3]: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 126 kb/s
-      Metadata:
-        handler_name    : SoundHandler
-        vendor_id       : [0][0][0][0]
-  Stream #0:3[0x4]: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 122 kb/s
-      Metadata:
-        handler_name    : SoundHandler
-        vendor_id       : [0][0][0][0]
-Stream mapping:
-  Stream #0:3 -> #0:0 (aac (native) -> aac (native))
-Press [q] to stop, [?] for help
-Output #0, adts, to 'OUTPUT_HLS/AUDIO_HLS/audio_2.aac':
-  Metadata:
-    major_brand     : isom
-    minor_version   : 512
-    compatible_brands: isomiso2avc1mp41
-    encoder         : Lavf61.7.100
-  Stream #0:0: Audio: aac (LC), 44100 Hz, stereo, fltp, 128 kb/s
-      Metadata:
-        handler_name    : SoundHandler
-        vendor_id       : [0][0][0][0]
-        encoder         : Lavc61.19.101 aac
-size=     512KiB time=00:00:34.92 bitrate= 120.1kbits/s speed=69.2x    size=    1024KiB time=00:01:16.78 bitrate= 109.2kbits/s speed=  76x    size=    1792KiB time=00:02:02.22 bitrate= 120.1kbits/s speed=80.7x    size=    2560KiB time=00:02:55.79 bitrate= 119.3kbits/s speed=  87x    size=    3328KiB time=00:03:40.47 bitrate= 123.7kbits/s speed=87.3x    size=    4096KiB time=00:04:22.13 bitrate= 128.0kbits/s speed=86.5x    size=    4864KiB time=00:05:13.98 bitrate= 126.9kbits/s speed=88.8x    size=    5632KiB time=00:06:03.09 bitrate= 127.1kbits/s speed=89.9x    size=    6400KiB time=00:06:52.61 bitrate= 127.1kbits/s speed=90.8x    size=    7168KiB time=00:07:42.26 bitrate= 127.0kbits/s speed=91.5x    size=    8192KiB time=00:08:39.56 bitrate= 129.2kbits/s speed=93.5x    size=    8704KiB time=00:09:17.97 bitrate= 127.8kbits/s speed=92.1x    size=    9472KiB time=00:10:08.89 bitrate= 127.4kbits/s speed=92.7x    [out#0/adts @ 0x600000134180] video:0KiB audio:9790KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 1.965638%
-size=    9982KiB time=00:10:53.61 bitrate= 125.1kbits/s speed=  96x    
-[aac @ 0x13cf1c000] Qavg: 4859.614
