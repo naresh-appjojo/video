@@ -1,6 +1,0 @@
-# Set correct MIME type for HLS files
-AddType application/vnd.apple.mpegurl .m3u8
-AddType video/mp2t .ts
-
-# Enable CORS (Cross-Origin Resource Sharing) for HLS playback
-Header set Access-Control-Allow-Origin "*"
