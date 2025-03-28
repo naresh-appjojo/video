@@ -1,0 +1,160 @@
+ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 16.0.0 (clang-1600.0.26.6)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/7.1.1_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[aac @ 0x1407066f0] Estimating duration from bitrate, this may be inaccurate
+Input #0, aac, from 'OUTPUT_HLS/AUDIO_HLS/audio_2.aac':
+  Duration: 04:55:46.16, bitrate: 4 kb/s
+  Stream #0:0: Audio: aac (LC), 44100 Hz, stereo, fltp, 4 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+[mpegts @ 0x140606500] frame size not set
+Output #0, hls, to 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Audio: aac (LC), 44100 Hz, stereo, fltp, 128 kb/s
+      Metadata:
+        encoder         : Lavc61.19.101 aac
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_20.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_21.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_22.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+size=N/A time=00:00:35.36 bitrate=N/A speed=70.3x    [hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_23.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_24.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_25.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_26.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+size=N/A time=00:01:16.97 bitrate=N/A speed=76.3x    [hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_27.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_28.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_29.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_210.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_211.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+size=N/A time=00:02:02.64 bitrate=N/A speed=81.1x    [hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_212.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_213.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_214.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_215.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_216.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+size=N/A time=00:02:56.72 bitrate=N/A speed=87.7x    [hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_217.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_218.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_219.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_220.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_221.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+size=N/A time=00:03:41.93 bitrate=N/A speed=88.1x    [hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_222.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_223.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_224.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_225.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+size=N/A time=00:04:24.47 bitrate=N/A speed=87.4x    [hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_226.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_227.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_228.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_229.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_230.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_231.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+size=N/A time=00:05:20.08 bitrate=N/A speed=90.7x    [hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_232.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_233.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_234.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_235.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+size=N/A time=00:06:09.82 bitrate=N/A speed=91.7x    [hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_236.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_237.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_238.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_239.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_240.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+size=N/A time=00:06:59.67 bitrate=N/A speed=92.4x    [hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_241.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_242.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_243.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_244.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_245.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_246.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+size=N/A time=00:07:51.10 bitrate=N/A speed=93.4x    [hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_247.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_248.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_249.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_250.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_251.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+size=N/A time=00:08:43.47 bitrate=N/A speed=94.3x    [hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_252.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_253.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_254.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_255.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+size=N/A time=00:09:28.40 bitrate=N/A speed=93.9x    [hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_256.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_257.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_258.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_259.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_260.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+size=N/A time=00:10:14.42 bitrate=N/A speed=93.7x    [hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_261.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_262.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_263.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_264.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_265.ts' for writing
+[hls @ 0x1407072e0] Opening 'OUTPUT_HLS/AUDIO_HLS/audio_2.m3u8.tmp' for writing
+[out#0/hls @ 0x600000e58180] video:0KiB audio:9810KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:10:53.64 bitrate=N/A speed=97.2x    
+[aac @ 0x140707b90] Qavg: 5452.161
